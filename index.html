@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/images/mitsu/logo.jpg" />
+    <title>PERSONA</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+  </head>
+
+  <body>
+    <div class="fl-page">
+      <header>
+        <div class="container">
+          <div class="header-flex d-flex justify-content-center">
+            <div class="header-menu">
+              <a href="#home" class="active">HOME</a>
+              <a href="#about">ABOUT</a>
+              <a href="#wen">WEN</a>
+              <a href="#team">TEAM</a>
+              <a href="#fanart">FANART</a>
+            </div>
+            
+          </div>
+        </div>
+      </header>
+      <div class="mobile-menu">
+        <div class="logo-mobile">
+          <img src="assets/images/mitsu/logo.png" />
+        </div>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0);" class="closebtn" onclick="closeNav()"
+            >×</a
+          >
+          <div class="overlay-content">
+            
+            <li><a href="#home" onclick="closeNav()">HOME</a></li>
+            <li><a href="#about" onclick="closeNav()">ABOUT</a></li>
+            <li><a href="#wen" onclick="closeNav()">WEN</a></li>
+            <li><a href="#team" onclick="closeNav()">TEAM</a></li>
+            <li><a href="#fanart" onclick="closeNav()">FANART</a></li>
+          </div>
+        </div>
+        <span class="open_nav" onclick="openNav()">
+          <span class="line-1"></span>
+          <span class="line-2"></span>
+        </span>
+      </div>
+
+      <section id="home" class="hero-section">
+        <li style="display:block;width:60px;height:auto;position:fixed;top:350px;left:0px;text-align:center;list-style:none;box-sizing: border-box;text-align:center;z-index:10000;overflow:hidden;float:none;clear:left;">
+          <a href="https://twitter.com/Persona_Journey" target="_blank" style="display:block;width:60px;height:30px;color: white;">
+            <i class="fa-brands fa-twitter fa-xl"></i></a>
+          <br> 
+          </li>
+        <video autoplay muted loop playsinline id="myVideo">
+          <source src="assets/images/mitsu/video.mp4" type="video/mp4">
+        </video>
+        <img src="assets/images/mitsu/mobHero.jpg" class="mobHero">
+      </section>
+
+      <section id="about" class="art">
+        <div class="container">
+          <h1 class="text-center" >
+            About<span> PERSONA</span>
+            
+          </h1>
+          <h4 class="text-center" data-aos="fade-in" data-aos-delay="200">
+            Persona is a state-of-the-art avatar collection at the heart of the <a href="https://twitter.com/Unagi_studio" target="_blank"> UNAGI</a> gaming ecosystem.
+
+
+            Inspired by a retro anime that we cherish, Persona stands as the flagship brand of our entire ecosystem.
+            
+            
+            Dive into innovation with us!  
+          </h4>
+         
+        </div>
+      </section>
+      <hr style="color: #f1b84e;width: 75%;margin: auto;">
+      <section id="wen" class="art">
+        <div class="container">
+          <h1 class="text-center" >
+            Wen<span> PERSONA</span>
+            
+          </h1>
+          <h4 class="text-center" data-aos="fade-in" data-aos-delay="200">
+            Persona whitelist process is currently open to everyone <a href="https://whitelist.personajourney.io/" target="_blank">here.</a><br>
+            Minting: <span>Q1 2024</span><br>
+            Mint price: <span>TBA</span><br>
+            Supply: <span>TBA</span><br>
+
+            Visit there official website for more information. Click <a href="https://personajourney.io/" target="_blank">here.</a>
+          </h4>
+         
+        </div>
+      </section>
+      <hr style="color: #f1b84e;width: 75%;margin: auto;">
+      <section id="team" class="art">
+        <div class="container">
+          <h1 class="text-center" >
+            Team<span> PERSONA</span>
+          </h1>
+          <br>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col col-lg-3">
+                <div class="recent-col text-center">
+                  <img src="assets/images/mitsu/team/Team_Charlie.png" alt="" />
+                 <h3 style="padding-top: 10px;">Charlie Guillemot - CEO</h3>
+                  <h5><a href="https://www.linkedin.com/in/charlie-guillemot-18609a37/" target="_blank">LinkedIn</a></h5>
+                </div>
+              </div>
+              <div class="col col-lg-3">
+                <div class="recent-col text-center">
+                  <img src="assets/images/mitsu/team/Team_Remi.png" alt="" />
+                 <h3 style="padding-top: 10px;">Remi Pellerin - CEO</h3>
+                  <h5><a href="https://www.linkedin.com/in/remipellerin/" target="_blank">LinkedIn</a></h5>
+                </div>
+              </div>
+              <div class="col col-lg-3">
+                <div class="recent-col text-center">
+                  <img src="assets/images/mitsu/team/Team_Matthieu.png" alt="" />
+                 <h3 style="padding-top: 10px;">Matthieu Hocquart - CTO</h3>
+                  <h5><a href="https://www.linkedin.com/in/matthieu-hocquart-603051b9/" target="_blank">LinkedIn</a></h5>
+                </div>
+              </div>
+              <div class="col col-lg-3">
+                <div class="recent-col text-center">
+                  <img src="assets/images/mitsu/team/Team_Pierre.png" alt="" />
+                 <h3 style="padding-top: 10px;">Pierre Mattei</h3>
+                 <h3 style="padding-top: 3px;">Creative Director</h3>
+                  <h5><a href="https://www.linkedin.com/in/pierre-mattei/" target="_blank">LinkedIn</a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </section>
+      <hr style="color: #f1b84e;width: 75%;margin: auto;">
+      <section id="fanart" class="art">
+        <div class="container">
+          <h1 class="text-center" >
+            Persona<span> FANART</span>
+            
+          </h1>
+          <br>
+          <div
+          class="recent-parent-col"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+       
+          <div class="team-col owl-carousel owl-theme">
+            
+            <div class="recent-col text-center">
+              <img src="assets/images/mitsu/fanart/1.jpg" alt="" />
+              <h5><a href="https://twitter.com/kk1_eth" target="_blank">@kk1_eth</a></h5>
+            </div>
+            <div class="recent-col text-center">
+              <img src="assets/images/mitsu/fanart/3.jpg" alt="" />
+              <h5><a href="https://twitter.com/holy_omon" target="_blank">@holy_omon</a></h5>
+            </div>
+            <div class="recent-col text-center">
+              <img src="assets/images/mitsu/fanart/2.jpg" alt="" />
+              <h5><a href="https://twitter.com/anonymous_maboa" target="_blank">@anonymous_maboa</a></h5>
+            </div>
+            <div class="recent-col text-center">
+              <img src="assets/images/mitsu/fanart/4.jpg" alt="" />
+              <h5><a href="https://twitter.com/javpixel_art" target="_blank">@javpixel_art</a></h5>
+            </div>
+            <div class="recent-col text-center">
+              <img src="assets/images/mitsu/fanart/5.jpg" alt="" />
+              <h5><a href="https://twitter.com/G9428_" target="_blank">@G9428_</a></h5>
+            </div>
+            <div class="recent-col text-center">
+              <img src="assets/images/mitsu/fanart/6.jpg" alt="" />
+              <h5><a href="https://twitter.com/GameArgus" target="_blank">@GameArgus</a></h5>
+            </div>
+            <div class="recent-col text-center">
+              <img src="assets/images/mitsu/fanart/7.jpg" alt="" />
+              <h5><a href="https://twitter.com/meowmeowwwxD" target="_blank">@meowmeowwwxD</a></h5>
+            </div>
+            <div class="recent-col text-center">
+              <img src="assets/images/mitsu/fanart/8.jpg" alt="" />
+              <h5><a href="https://twitter.com/henlo_eth" target="_blank">@henlo_eth</a></h5>
+            </div>
+          </div>
+        </div>
+         
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="footer-logo">
+           
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-7 my-auto">
+              <div class="footer-menu">
+                <a href="#home" class="active">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#wen">WEN</a>
+                <a href="#team">TEAM</a>
+                <a href="#fanart">FANART</a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 my-auto">
+              <div class="footer-social">
+                
+                <a href="https://twitter.com/Persona_Journey" target="_blank">
+                  <i class="fa-brands fa-twitter fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <p class="copyright-p">© 2024 PERSONA - <a href="https://twitter.com/Jas0nly" target="_blank">@Jas0nly</a></p>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        setTimeout(function () {
+          AOS.init({
+            duration: 800,
+          });
+        }, 400);
+      });
+    </script>
+  </body>
+</html>
